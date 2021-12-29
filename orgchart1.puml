@@ -1,0 +1,29 @@
+@startuml
+' !theme amiga from https://raw.githubusercontent.com/plantuml/plantuml/master/themes
+' !theme _none_ from ./
+!theme digital-stoic from ./
+
+actor Architect as archi
+together {
+    actor "Developer 4" as dev4
+    actor "Developer 3" as dev3
+    actor "Developer 2" as dev2
+    actor "Developer 1" as dev1
+}
+title = This is title
+center header
+    This is header
+endheader
+archi -down-> dev1
+archi -down-> dev2
+archi -down-> dev3
+archi -down-> dev4
+caption
+    This is caption
+endcaption
+footer
+    This is footer
+endfooter
+@enduml
+
+

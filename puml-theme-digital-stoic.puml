@@ -1,0 +1,13 @@
+!$THEME = "digital-stoic"
+
+' skinparam BackgroundColor white
+' skinparam shadowing false
+
+skinparam actor {
+    BackgroundColor white
+    BorderColor black
+}
+
+skinparam component {
+    ArrowColor black
+}
